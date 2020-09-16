@@ -28,7 +28,8 @@ Első lépésként szükségünk lesz egy adatbázisra. Az adatbázis tipikusan 
 
 1. Kapcsolódjon a Microsoft SQL Serverhez SQL Server Management Studio Segítségével. Indítsa el az alkalmazást, és az alábbi adatokkal kapcsolódjon.
 
-    - Server name: `(localdb)\mssqllocaldb`
+    - Server name: `(localdb)\mssqllocaldb` 
+    (Express Edition használatánál '.\sqlexpress'!)
     - Authentication: `Windows authentication`
 
 1. Hozzon létre egy új adatbázist (ha még nem létezik), az adatbázis neve legyen a Neptun kódja: _Object Explorer_-ben Databases-en jobb kattintás, és _Create Database_.
